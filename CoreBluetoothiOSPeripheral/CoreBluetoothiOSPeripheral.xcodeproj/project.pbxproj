@@ -259,6 +259,8 @@
 		64ED9AC8164754A900F39EAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zhang EnMin (V2E74D4463)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreBluetoothiOSPeripheral/CoreBluetoothiOSPeripheral-Prefix.pch";
 				INFOPLIST_FILE = "CoreBluetoothiOSPeripheral/CoreBluetoothiOSPeripheral-Info.plist";
